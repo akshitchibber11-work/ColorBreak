@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ccrwde1p6bmq4"]
+
+[node name="Main" type="Node2D" unique_id=647855732]
+
+[node name="World" type="Node2D" parent="." unique_id=1266870699]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=500598548]
+
+[node name="CanvasGroup" type="CanvasGroup" parent="UI" unique_id=1747742337]
+
+[node name="PuzzleOverlay" type="Control" parent="UI" unique_id=1140204125]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
